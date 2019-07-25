@@ -4,7 +4,7 @@ import boto3
 import json
 
 # In this example, the IAM User in my account that I will scan is Alice.
-username = "Alice"
+username = "alice"
 total_api_calls = []
 
 # Get the regions CloudTrail is available in minus ap-east-1,
@@ -16,7 +16,7 @@ available_cloudtrail_regions.remove("ap-east-1")
 for region in available_cloudtrail_regions:
     cloudtrail = boto3.client("cloudtrail", region_name=region)
 
-    # I'm calling the LookupEvents API and filtering out only events where the username attribute is equal to admin.
+    # I'm calling the LookupEvents API and filtering out only events where the username attribute is equal to alice.
     response = cloudtrail.lookup_events(
         LookupAttributes=[
             {
