@@ -4,7 +4,7 @@ import boto3
 import json
 
 # In this example, the IAM User in my account that I will scan is Alice.
-username = "admin"
+username = "Alice"
 total_api_calls = []
 
 # Get the regions CloudTrail is available in minus ap-east-1,
