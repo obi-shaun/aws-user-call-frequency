@@ -8,7 +8,7 @@ In the script, this is accomplished by calling [lookup_events()](https://boto3.a
 **Sample output:**
 <br/>
 `
-Total API calls made by Shaun in the last 24 hours:
+API calls made by Shaun in the last 24 hours:
 {('LookupEvents', 'cloudtrail.amazonaws.com'): 361, ('ListBuckets', 's3.amazonaws.com'): 5, ('DeleteBucket', 's3.amazonaws.com'): 1, ('GetBucketObjectLockConfiguration', 's3.amazonaws.com'): 2}...
 `
 
