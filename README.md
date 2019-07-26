@@ -1,4 +1,4 @@
-# aws-user-call-history
+# aws-user-call-frequency
 Python script to fetch and count the API calls made by an AWS IAM User that were logged in CloudTrail's [Event History](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/view-cloudtrail-events.html) in the last 24hrs.
 <br/>
 <br/>
